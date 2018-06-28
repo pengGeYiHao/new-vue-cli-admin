@@ -1,0 +1,20 @@
+html,body,#app,.layout,.el-container{height: 100%;}
+body,ul,ol,p,h1,h2,h3,h4,h5,dl,dd,form,input,textarea,td,th,button,strong,em,select,video,canvas{margin:0;padding:0;}
+li{list-style:none;vertical-align:top;}
+table{ border-collapse:collapse;}
+td,th{ text-align:center !important;}
+textarea{resize:none;overflow:auto;}
+img{ border:none; vertical-align:middle;}
+em{ font-style:normal;}
+a{ text-decoration:none; color: #48576a;}
+.isShow .el-submenu__title > span,.isShow .el-submenu__title > el-submenu__icon-arrow {display: none !important;}
+::-webkit-scrollbar{display:none;}
+
+  /*隐藏图片的删除图标*/
+
+  .addWorldCup .el-upload-list--picture-card .el-upload-list__item-actions {
+    display: none;
+  }
+  .editWorldCup .el-upload-list--picture-card .el-upload-list__item-actions {
+    display: none;
+  }
